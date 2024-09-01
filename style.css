@@ -1,0 +1,217 @@
+
+/* ESTILO GERAL */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color: #050a30;
+    height: 100vh;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+}
+.btn-contato button{
+
+    padding: 10px 40px;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #9c9999;
+    border: 0;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: .2s;
+    margin-top: 0px;
+
+    
+}
+
+h2.titulo{
+    color: #827f7f;
+    font-size: 25px;
+    text-align: center;
+}
+
+/* ESTILO GERAL */
+
+header{
+    padding: 40px 4%;
+}
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{   
+    color:#9d90908a;  /*  COR DAS LETRAS */
+    text-decoration: none; /*  TIRA AS LINHAS EMBAIXO DOS NOMES */
+    display: inline-block;
+    transition: .2s;
+}
+header a:hover{
+    color:#fff;
+    transform: scale(1.05);
+}
+
+header nav ul{
+    list-style-type: none;
+
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+
+/* Selecionando a imagem dentro da classe .logo */
+.logo img {
+    width: 190px;  /* Defina o tamanho desejado */
+    height: auto;  /* Mantém a proporção da imagem */
+    max-width: 100%; /* Para garantir que a imagem não ultrapasse o limite do contêiner */
+  }
+  .btn-contato button:hover,form .btn-enviar input:hover{
+    box-shadow: 0px 0px 8px #ffffffbd;
+    transform: scale(1.05);
+    
+  }
+   
+
+  /*ESTILO DO TOPO DO SITE*/
+  section.topo-do-site{
+    padding: 40px 4%;
+  }
+  section.topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+
+  }
+  .topo-do-site h1{
+    color: #827f7f;
+    font-size: 50px;
+    text-align: center; /* Centraliza o texto horizontalmente */
+    line-height: 50px;
+    margin-top: 15px;
+   
+    
+    
+    
+  }
+  
+
+  .topo-do-site .img-topo-site{
+    background-image: url('sua-imagem.jpg');
+    background-size: cover; /* Ajusta a imagem para cobrir a tela */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    background-position: center; /* Centraliza a imagem */
+  
+
+  }
+  /** ESTILO DAS ESPECIALIDADES **/
+
+
+
+  section.especialidades{
+    padding: 40px 4%;
+    margin-top: 20px;
+  }
+  section.especialidades .flex{
+    gap: 60px
+  }
+
+  .especialidades .especialidades-box{
+
+    color: #827f7f;
+    padding: 24px;
+    transition: .2s;
+    border-radius: 20px;
+    margin-top: 45px;
+  }
+
+  .especialidades .especialidades-box i{  /** ALTERAR ICONES SEGUNDA PAGINAS**/
+    font-size: 70px;
+    color:#4b6382 ;
+  }
+
+  .especialidades .especialidades-box h3{  /** ALTERAR titulo blog, website e lojaonline**/
+            font-size: 20px;
+            margin: 15px 0;
+  }
+
+  .especialidades .especialidades-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 8px #ffffff1e;
+  }
+
+  /* ESTILO PORTFOLIO*/
+
+  section.formulario {
+    padding: 80px 4%; /* Adiciona um preenchimento interno de 80 pixels nas partes superior e inferior, e 4% nas laterais */
+    box-shadow: 0 0 40px 10px #ffffff1d; /* Adiciona uma sombra ao redor da seção com uma cor branca semi-transparente */
+}
+
+  form{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+  }
+  
+  form input, form textarea{
+    width: 100;
+    background-color: #0d2c545e;
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 16px;
+  }
+
+  form textarea{
+    resize: none;
+    max-height: 200px;
+  }
+  form .btn-enviar{
+    margin-top: 20px;/* Espaço acima do botão */
+    
+    
+  }
+  form .btn-enviar input {
+    width: 120px; /* Define a largura do botão como 120 pixels */
+    background-color: #0d2c545e; /* Define a cor de fundo do botão com um tom de azul escuro semi-transparente */
+    color: #827f7f; /* Define a cor do texto do botão */
+    font-weight: 700; /* Define o peso da fonte como negrito */
+    cursor: pointer; /* Muda o cursor para um ponteiro ao passar sobre o botão, indicando que é clicável */
+    transition: .2s; /* Adiciona uma transição suave de 0,2 segundos para alterações de estilo */
+}
+ /* ESTILO RODAPÉ */
+  
+ footer{
+  padding: 30px 4%;
+  box-shadow: 0 0 40px 10px #ffffff1d;
+ }
+
+ footer .line-footer p i{
+  color: #4b6382;
+  font-size: 22px;
+ }
+  footer .line-footer p a{
+    color: #827f7f;
+  }
+    
+    
